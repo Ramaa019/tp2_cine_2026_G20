@@ -1,1 +1,6 @@
-# tp2_cine_2026
+# Trabajo práctico N°2:
+
+- Flexbox
+- Grids
+- Media queries
+- Modularización CSS (import url(...))

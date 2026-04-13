@@ -1,0 +1,96 @@
+.main-container {
+  background-color: var(--color-fondo);
+  min-height: 100vh;
+  width: 85%;
+  margin: 0 auto;
+  padding: var(--space-4);
+}
+
+@media (min-width: 1024px) {
+  .main-container {
+    padding: var(--space-8) var(--space-16);
+  }
+}
+
+/* CARTELERA */
+.cartelera-titulo {
+  color: var(--color-texto);
+  font-family: var(--fuente-titulos);
+  margin: var(--space-12) 0;
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--color-texto-suave);
+  padding-bottom: var(--space-2);
+}
+
+.cartelera-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* 1 columna en móvil */
+  gap: var(--space-6);
+}
+
+@media (min-width: 1024px) {
+  .cartelera-grid {
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas en desktop */
+    gap: var(--space-8);
+  }
+}
+/* FIN CARTELERA */
+
+/* DETALLES */
+.detalles {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+  margin-bottom: var(--space-12);
+}
+
+@media (min-width: 1024px) {
+  .detalles {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap: var(--space-12);
+    align-items: start;
+  }
+}
+
+.detalles-grid-datos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-4);
+  border-top: 1px solid var(--color-superficie);
+  padding-top: var(--space-4);
+}
+
+@media (min-width: 1024px) {
+  .detalles-grid-datos {
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas en desktop */
+  }
+}
+
+/* LOGIN */
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh; /* Para que no quede pegado al header */
+  padding: var(--space-8) var(--space-4);
+}
+/* - FIN LOGIN */
+
+/* PERFIL */
+.perfil-datos, .perfil-actividad {
+  background-color: var(--color-superficie);
+  padding: var(--space-8);
+  margin-bottom: var(--space-6);
+  border-radius: 4px;
+}
+
+@media (min-width: 1024px) {
+  .main-container.perfil-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: var(--space-8);
+    align-items: start;
+  }
+}
+/* - FIN PERFIL */

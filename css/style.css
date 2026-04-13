@@ -1,18 +1,15 @@
 @import url(./components/header.css);
 @import url(./components/footer.css);
 
+@import url(./components/poster.css);
 @import url(./components/buttons.css);
 @import url(./components/cards.css);
-
+@import url(./components/form.css);
 @import url(./components/grids.css);
 
-/* MOMENTANEO */
-img {
-  width: 100px;
-  height: 100px;
-}
 
 html {
+  background-color: var(--color-fondo);
   box-sizing: border-box;
 }
 *, *:before, *:after {
@@ -20,7 +17,6 @@ html {
 }
 
 :root {
-  
   /* Paleta 3: COLORES*/
   --color-fondo: #141414;
   --color-superficie: #1f1f1f;
@@ -28,19 +24,165 @@ html {
   --color-secundario: #00b4d8;
   --color-texto: #ffffff;
   --color-texto-suave: #b3b3b3;
-  
+
   /* Tipografías*/
   --fuente-principal: 'Inter', system-ui, sans-serif;
   --fuente-titulos: 'Oswald', sans-serif; /* Muy estilo cine */
-  
+
   /* Regla de los 4px (Requisito 77) */
   --space-1: 4px;
   --space-2: 8px;
   --space-3: 12px;
   --space-4: 16px;
+  --space-5: 20px;
   --space-6: 24px;
   --space-8: 32px;
   --space-12: 48px;
   --space-16: 64px;
 
+}
+
+
+/* ESTILOS INFORMACION/TEXTO DE DETALLES.HTML */
+
+/* Título de la película */
+.detalles-header h1 {
+  font-family: var(--fuente-titulos);
+  font-size: 3rem;
+  color: var(--color-texto);
+  margin-bottom: var(--space-1);
+}
+
+.detalles-header h2 {
+  font-family: var(--fuente-principal);
+  color: var(--color-texto-suave);
+  font-size: 1.2rem;
+  margin-bottom: var(--space-6);
+}
+
+/* Títulos de sección (SINOPSIS, DURACIÓN, etc.) */
+.detalles-info h3 {
+  font-family: var(--fuente-titulos);
+  color: var(--color-primario);
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  margin-bottom: var(--space-2);
+  text-transform: uppercase;
+}
+
+.detalles-info p {
+  color: var(--color-texto-suave);
+  line-height: 1.6;
+  margin-bottom: var(--space-4);
+}
+
+.detalles-datos-horarios {
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-2);
+}
+/* - FIN ESTILOS DETALLES */
+
+
+/* FORMULARIO LOGIN : ESTILOS DE INFORMACION DE REGISTRO */
+.login-registrarse {
+  text-align: center;
+  margin-top: var(--space-6);
+}
+
+.login-registrarse-texto {
+  color: var(--color-texto-suave);
+  font-family: var(--fuente-principal);
+}
+
+.login-registrarse-link {
+  color: var(--color-primario);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-registrarse-link:hover {
+  text-decoration: underline;
+}
+/* - FIN FORMULARIO LOGIN */
+
+
+/* PERFIL */
+
+.datos-titulo {
+  font-family: var(--fuente-titulos);
+  color: var(--color-primario);
+  margin-bottom: var(--space-8);
+  text-transform: uppercase;
+  font-size: var(--space-8);
+  text-align: center;
+}
+
+.datos-bienvenida {
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
+  
+  margin-bottom: var(--space-8);
+  padding-bottom: var(--space-8);
+
+  border-bottom: 1px solid var(--color-texto-suave);
+}
+
+.datos-bienvenida-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid var(--color-texto);
+  object-fit: cover;
+  background-color: var(--color-superficie);
+}
+
+.datos-bienvenida-texto {
+  font-size: var(--space-6);
+  color: var(--color-texto);
+}
+
+.datos-user p {
+  color: var(--color-texto-suave);
+  margin-bottom: var(--space-2);
+  font-size: var(--space-4);
+}
+
+.actividad-titulo {
+  font-family: var(--fuente-titulos);
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--color-texto-suave);
+  padding-bottom: var(--space-2);
+  font-size: var(--space-6);
+  color: var(--color-texto);
+  margin-bottom: var(--space-6);
+}
+
+.actividad-lista {
+  list-style: none;
+  padding: 0;
+}
+
+.actividad-pelicula {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-3) 0;
+  border-bottom: 1px solid var(--color-texto-suave);
+  margin: var(--space-4) 0;
+}
+
+.actividad-icono {
+  color: var(--color-primario);
+  font-size: var(--space-6);
+}
+
+.actividad-pelicula-titulo {
+  color: var(--color-texto-suave);
+  margin: 0;
+}
+
+.actividad-pelicula-titulo small {
+  opacity: 0.6;
 }

@@ -12,47 +12,47 @@
   <body>
     <header class="header">
       <div class="header-logo-container">
-        <h1 class="header-logo-titulo">Cine Aurora</h1>
         <img class="header-logo-img" src="../assets/favicon/logo-cine.png" alt="logo-cine-aurora" />
+        <h1 class="header-logo-titulo">Cine Aurora</h1>
       </div>
       <nav class="header-nav">
-        <a class="header-nav-link" href="../index.html">Inicio</a>
-        <a class="header-nav-link" href="../pages/estrenos.html">Próximos estrenos</a>
-        <a class="header-nav-link" href="../index.html">Volver</a>
+          <a class="header-nav-link" href="../index.html">Inicio</a>
+          <a class="header-nav-link" href="./estrenos.html">Próximos estrenos</a>
+          <a class="header-nav-link" href="./login.html">Mi perfil</a>
       </nav>
     </header>
 
-    <main class="main-container">
+    <main class="main-container perfil-grid">
       
       <section class="perfil-datos">
 
-        <h1 class="perfil-datos-titulo">Panel de usuario</h1>
+        <h1 class="datos-titulo">Panel de usuario</h1>
 
-        <div class="perfil-datos-bienvenida">
-          <img src="../assets/img/perfil-placeholder.png" alt="Foto de perfil"/>
-          <h2>Hola, John Doe 👋📽️!</h2>
+        <div class="datos-bienvenida">
+          <img class="datos-bienvenida-img" src="../assets/img/perfil-placeholder.png" alt="Foto de perfil"/>
+          <h2 class="datos-bienvenida-texto">Hola, John Doe 👋📽️!</h2>
         </div>
-        <div class="perfil-datos-cuenta">
-          <p>Nombre completo: John Doe</p>
-          <p>Email: usuario@example.com</p>
-          <p>Fecha de nacimiento: dd/mm/yyyy</p>
-          <p>Contraseña: ********</p>
-          <p>Miembro desde: 2026</p>
+        <div class="datos-user">
+          <p class="datos-user-nombre">Nombre completo: John Doe</p>
+          <p class="datos-user-email">Email: usuario@example.com</p>
+          <p class="datos-user-fecha-nacimiento">Fecha de nacimiento: dd/mm/yyyy</p>
+          <p class="datos-user-password">Contraseña: ********</p>
+          <p class="datos-user-miembro-desde">Miembro desde: 2026</p>
         </div>
 
       </section>
 
       <section class="perfil-actividad">
-          <h3 class="perfil-actividad-titulo">Películas ya vistas</h3>
+          <h3 class="actividad-titulo">Películas ya vistas</h3>
         
-          <ul class="perfil-actividad-lista">
-            <li class="perfil-actividad-item">
-              <span class="perfil-actividad-icono">🎬</span>
-              <p>Estreno A - <small>Vista el 10/03</small></p>
+          <ul class="actividad-lista">
+            <li class="actividad-pelicula">
+              <span class="actividad-icono">🎬</span>
+              <p class="actividad-pelicula-titulo">Estreno A - <small>Vista el 10/03</small></p>
             </li>
-            <li class="perfil-actividad-item">
-              <span class="perfil-actividad-icono">🎬</span>
-              <p>Estreno B - <small>Vista el 15/03</small></p>
+            <li class="actividad-pelicula">
+              <span class="actividad-icono">🎬</span>
+              <p class="actividad-pelicula-titulo">Estreno B - <small>Vista el 15/03</small></p>
             </li>
           </ul>          
       </section>

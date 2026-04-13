@@ -1,6 +1,6 @@
 # Trabajo práctico N°2:
 
-# Integrantes
+## Integrantes
 
 - Severino Tomás
 - Naim Neman

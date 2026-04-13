@@ -1,0 +1,38 @@
+.card-btn {
+    flex: 1;
+    text-decoration: none;
+    font-family: var(--fuente-principal);
+    font-size: var(--space-4);
+    font-weight: bold;
+    padding: var(--space-3) var(--space-2);
+    text-align: center;
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    text-align: center;      
+
+
+    transition: opacity 0.3s ease;
+}
+
+.card-btn:hover { 
+    opacity: 0.9;
+}
+
+.card-btn {
+    background-color: var(--color-primario);
+    color: var(--color-texto);
+}
+
+.card-btn-secundario {
+    background-color: var(--color-secundario);
+    color: var(--color-texto);
+}
+
+@media (min-width: 1024px) {
+    .detalles-btn-comprar {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+}

@@ -1,3 +1,7 @@
+/* Importación de fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Oswald:wght@400;700&display=swap');
+
+/* Importación de componentes */
 @import url(./components/header.css);
 @import url(./components/footer.css);
 
@@ -8,6 +12,7 @@
 @import url(./components/grids.css);
 
 
+/* Estilos globales */
 html {
   background-color: var(--color-fondo);
   box-sizing: border-box;

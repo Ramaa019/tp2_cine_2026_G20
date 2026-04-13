@@ -4,80 +4,73 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cine Aurora 📽️ - Estrenos</title>
-    <meta name="description" content="Cine Aurora - Estrenos" />
+    <meta name="description" content="Cine Aurora - Próximos lanzamientos y estrenos exclusivos." />
     <link rel="icon" href="../assets/favicon/logo-cine.png" />
     <link rel="stylesheet" href="../css/style.css" />
   </head>
 
   <body>
-    <header>
-      <div>
-        <h1>Cine Aurora</h1>
-        <img src="../assets/favicon/logo-cine.png" alt="logo-cine-aurora" />
+    <header class="header">
+      <div class="header-logo-container">
+        <img class="header-logo-img" src="../assets/favicon/logo-cine.png" alt="logo-cine-aurora" />
+        <h1 class="header-logo-titulo">Cine Aurora</h1>
       </div>
-      <div>
-        <nav>
-          <a href="../index.html">Inicio</a>
-          <a href="#">Próximos estrenos</a>
-          <a href="../pages/login.html">Mi perfil</a>
-        </nav>
-      </div>
+      <nav class="header-nav">
+          <a class="header-nav-link" href="../index.html">Inicio</a>
+          <a class="header-nav-link" href="./estrenos.html">Próximos estrenos</a>
+          <a class="header-nav-link" href="./login.html">Mi perfil</a>
+      </nav>
     </header>
 
-    <main>
-      <section>
-        <div>
-          <div>
-            <h1>Próximos Lanzamientos</h1>
-          </div>
+    <main class="main-container">
+      <section class="estrenos">
+        
+        <h1 class="cartelera-titulo">Próximos Lanzamientos</h1>
 
-          <div>
-            <img src="../assets/img/poster-1.png" alt="Próximamente" />
-            <h4>Título del Estreno</h4>
-            <p>Fecha prevista: Mayo 2026</p>
-          </div>
-        </div>
+        <div class="cartelera-grid">
 
-        <div>
-            <img src="../assets/img/poster-1.png" alt="Próximamente" />
-            <h4>Título del Estreno</h4>
-            <p>Fecha prevista: Mayo 2026</p>
-          </div>
-        </div>
+          <article class="card-pelicula">
+            <img class="card-pelicula-img" src="../assets/img/poster-toy-story.png" alt="Toy Story 5" />
+            <h4 class="card-pelicula-titulo">Toy Story 5</h4>
+            <p class="card-pelicula-fecha">Fecha prevista: Junio 2026</p>
+          </article>
+          
+          <article class="card-pelicula">
+            <img class="card-pelicula-img" src="../assets/img/The Dark Knight.png" alt="The Dark Knight Returns" />
+            <h4 class="card-pelicula-titulo">The Dark Knight Returns</h4>
+            <p class="card-pelicula-fecha">Fecha prevista: Julio 2026</p>
+          </article>
 
-        <div>
-            <img src="../assets/img/poster-1.png" alt="Próximamente" />
-            <h4>Título del Estreno</h4>
-            <p>Fecha prevista: Mayo 2026</p>
-          </div>
-        </div>
+          <article class="card-pelicula">
+            <img class="card-pelicula-img" src="../assets/img/Titanic.png" alt="Titanic: Edición Aniversario" />
+            <h4 class="card-pelicula-titulo">Titanic: Aniversario</h4>
+            <p class="card-pelicula-fecha">Fecha prevista: Agosto 2026</p>
+          </article>
+          
+          <article class="card-pelicula">
+            <img class="card-pelicula-img" src="../assets/img/Interstellar.png" alt="Interstellar II" />
+            <h4 class="card-pelicula-titulo">Interstellar II</h4>
+            <p class="card-pelicula-fecha">Fecha prevista: Septiembre 2026</p>
+          </article>
+          
+          <article class="card-pelicula">
+            <img class="card-pelicula-img" src="../assets/img/Cars.png" alt="Cars 4" />
+            <h4 class="card-pelicula-titulo">Cars 4</h4>
+            <p class="card-pelicula-fecha">Fecha prevista: Octubre 2026</p>
+          </article>
 
-        <div>
-            <img src="../assets/img/poster-1.png" alt="Próximamente" />
-            <h4>Título del Estreno</h4>
-            <p>Fecha prevista: Mayo 2026</p>
-          </div>
-        </div>
-
-        <div>
-            <img src="../assets/img/poster-1.png" alt="Próximamente" />
-            <h4>Título del Estreno</h4>
-            <p>Fecha prevista: Mayo 2026</p>
-          </div>
-        </div>
-
-        <div>
-            <img src="../assets/img/poster-1.png" alt="Próximamente" />
-            <h4>Título del Estreno</h4>
-            <p>Fecha prevista: Mayo 2026</p>
-          </div>
+          <article class="card-pelicula">
+            <img class="card-pelicula-img" src="../assets/img/Leon.png" alt="Mufasa: The Lion King" />
+            <h4 class="card-pelicula-titulo">Mufasa: The Lion King</h4>
+            <p class="card-pelicula-fecha">Fecha prevista: Diciembre 2026</p>
+          </article>
         </div>
 
       </section>
-
-      <footer>
-        <p>&copy; 2026 Cine Aurora - Todos los derechos reservados</p>
-      </footer>
     </main>
+    
+    <footer class="footer">
+      <p class="footer-text">&copy; 2026 Cine Aurora - Todos los derechos reservados</p>
+    </footer>
   </body>
 </html>

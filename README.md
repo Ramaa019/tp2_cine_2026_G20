@@ -1,6 +1,9 @@
-# Trabajo práctico N°2:
+# Tp2 - Cine Aurora - Grupo 20   :
 
-- Flexbox
-- Grids
-- Media queries
-- Modularización CSS (import url(...))
+## Integrantes
+
+- Severino Tomás
+- Naim Neman
+- David Cardozo
+- Ramón Pastré
+- Alejo Simos

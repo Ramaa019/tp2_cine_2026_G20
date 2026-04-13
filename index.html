@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cine Aurora 📽️</title>
-    <meta name="description" content="Cine Aurora - Tu destino para disfrutar del mejor cine en la ciudad. Descubre las últimas películas, compra tus entradas y vive la experiencia cinematográfica al máximo." />
+    <meta name="description" content="Cine Aurora - Tu destino para disfrutar del mejor cine en la ciudad." />
     <link rel="icon" href="./assets/favicon/logo-cine.png" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -12,80 +12,80 @@
   <body>
     <header class="header">
       <div class="header-logo-container">
-        <h1 class="header-logo-titulo">Cine Aurora</h1>
         <img class="header-logo-img" src="./assets/favicon/logo-cine.png" alt="logo-cine-aurora" />
+        <h1 class="header-logo-titulo">Cine Aurora</h1>
       </div>
       <nav class="header-nav">
-          <a class="header-nav-link" href="#">Inicio</a>
+          <a class="header-nav-link" href="./index.html">Inicio</a>
           <a class="header-nav-link" href="./pages/estrenos.html">Próximos estrenos</a>
           <a class="header-nav-link" href="./pages/login.html">Mi perfil</a>
       </nav>
     </header>
 
-    <main>
+    <main class="main-container">
       <section class="cartelera">
-        <h2>Películas en cartelera</h2>
+        <h2 class="cartelera-titulo">Películas en cartelera</h2>
 
-        <div class="main-container">
+        <div class="cartelera-grid">
 
           <article class="card-pelicula">
-            <img class="card-pelicula-img" src="./assets/img/poster-1.png" alt="Imagen de la película" />
-            <h3 class="card-pelicula-titulo">Nombre película</h3>
-            <p class="card-pelicula-genero">Género</p>
-            <a class="card-pelicula-btn-ver-mas" href="./pages/detalle.html">Ver más</a>
-            <a class="card-pelicula-btn-comprar" href="#"
-            onclick=" alert('Lo sentimos, en este momento no funciona nuestro sistema') "
-            >Comprar entradas</a>
+            <img class="card-pelicula-img" src="./assets/img/cartelera-poster-1.png" alt="Imagen de la película" />
+            <h3 class="card-pelicula-titulo">Buena suerte, diviertete, no mueras</h3>
+            <p class="card-pelicula-genero">Comedia, Drama</p>
+            <div class="card-pelicula-btns">
+              <a class="card-btn" href="./pages/detalle.html">Ver más</a>
+              <a class="card-btn card-btn-secundario" href="#" onclick="alert('Lo sentimos, en este momento no funciona nuestro sistema')">Comprar entradas</a>
+            </div>
           </article>
 
           <article class="card-pelicula">
-            <img class="card-pelicula-img" src="./assets/img/poster-1.png" alt="Imagen de la película" />
-            <h3 class="card-pelicula-titulo">Nombre película</h3>
-            <p class="card-pelicula-genero">Género</p>
-            <a class="card-pelicula-btn-ver-mas" href="./pages/detalle.html">Ver más</a>
-            <a class="card-pelicula-btn-comprar" href="#"
-            onclick=" alert('Lo sentimos, en este momento no funciona nuestro sistema') "
-            >Comprar entradas</a>
+            <img class="card-pelicula-img" src="./assets/img/cartelera-poster-2.png" alt="Imagen de la película" />
+            <h3 class="card-pelicula-titulo">911: Llamada infernal</h3>
+            <p class="card-pelicula-genero">Terror, Thriller</p>
+            <div class="card-pelicula-btns">
+              <a class="card-btn" href="./pages/detalle.html">Ver más</a>
+              <a class="card-btn card-btn-secundario" href="#" onclick="alert('Lo sentimos, en este momento no funciona nuestro sistema')">Comprar entradas</a>
+            </div>
           </article>
 
           <article class="card-pelicula">
-            <img class="card-pelicula-img" src="./assets/img/poster-1.png" alt="Imagen de la película" />
-            <h3 class="card-pelicula-titulo">Nombre película</h3>
-            <p class="card-pelicula-genero">Género</p>
-            <a class="card-pelicula-btn-ver-mas" href="./pages/detalle.html">Ver más</a>
-            <a class="card-pelicula-btn-comprar" href="#"
-            onclick=" alert('Lo sentimos, en este momento no funciona nuestro sistema') "
-            >Comprar entradas</a>
+            <img class="card-pelicula-img" src="./assets/img/cartelera-poster-3.png" alt="Imagen de la película" />
+            <h3 class="card-pelicula-titulo">Super Mario Galaxy</h3>
+            <p class="card-pelicula-genero">Animación, Aventura, Comedia</p>
+            <div class="card-pelicula-btns">
+              <a class="card-btn" href="./pages/detalle.html">Ver más</a>
+              <a class="card-btn card-btn-secundario" href="#" onclick="alert('Lo sentimos, en este momento no funciona nuestro sistema')">Comprar entradas</a>
+            </div>
           </article>
 
           <article class="card-pelicula">
-            <img class="card-pelicula-img" src="./assets/img/poster-1.png" alt="Imagen de la película" />
-            <h3 class="card-pelicula-titulo">Nombre película</h3>
-            <p class="card-pelicula-genero">Género</p>
-            <a class="card-pelicula-btn-ver-mas" href="./pages/detalle.html">Ver más</a>
-            <a class="card-pelicula-btn-comprar" href="#"
-            onclick=" alert('Lo sentimos, en este momento no funciona nuestro sistema') "
-            >Comprar entradas</a>
+            <img class="card-pelicula-img" src="./assets/img/cartelera-poster-4.png" alt="Imagen de la película" />
+            <h3 class="card-pelicula-titulo">Proyecto Fin del Mundo</h3>
+            <p class="card-pelicula-genero">Ciencia ficción, Thriller</p>
+            <div class="card-pelicula-btns">
+              <a class="card-btn" href="./pages/detalle.html">Ver más</a>
+              <a class="card-btn card-btn-secundario" href="#" onclick="alert('Lo sentimos, en este momento no funciona nuestro sistema')">Comprar entradas</a>
+            </div>
           </article>
 
           <article class="card-pelicula">
-            <img class="card-pelicula-img" src="./assets/img/poster-1.png" alt="Imagen de la película" />
-            <h3 class="card-pelicula-titulo">Nombre película</h3>
-            <p class="card-pelicula-genero">Género</p>
-            <a class="card-pelicula-btn-ver-mas" href="./pages/detalle.html">Ver más</a>
-            <a class="card-pelicula-btn-comprar" href="#"
-            onclick=" alert('Lo sentimos, en este momento no funciona nuestro sistema') "
-            >Comprar entradas</a>
+            <img class="card-pelicula-img" src="./assets/img/cartelera-poster-5.png" alt="Imagen de la película" />
+            <h3 class="card-pelicula-titulo">Marty Supreme</h3>
+            <p class="card-pelicula-genero">Acción, Aventura, Comedia</p>
+            <div class="card-pelicula-btns">
+              <a class="card-btn" href="./pages/detalle.html">Ver más</a>
+              <a class="card-btn card-btn-secundario" href="#" onclick="alert('Lo sentimos, en este momento no funciona nuestro sistema')">Comprar entradas</a>
+            </div>
           </article>
 
           <article class="card-pelicula">
-            <img class="card-pelicula-img" src="./assets/img/poster-1.png" alt="Imagen de la película" />
-            <h3 class="card-pelicula-titulo">Nombre película</h3>
-            <p class="card-pelicula-genero">Género</p>
-            <a class="card-pelicula-btn-ver-mas" href="./pages/detalle.html">Ver más</a>
-            <a class="card-pelicula-btn-comprar" href="#"
-            onclick=" alert('Lo sentimos, en este momento no funciona nuestro sistema') "
-            >Comprar entradas</a>
+            <img class="card-pelicula-img" src="./assets/img/cartelera-poster-6.png" alt="Imagen de la película" />
+            <h3 class="card-pelicula-titulo">Oppenheimer</h3>
+            <p class="card-pelicula-genero">Biografía, Drama, Historia</p>
+            <div class="card-pelicula-btns">
+              <a class="card-btn" href="./pages/detalle.html">Ver más</a>
+              <a class="card-btn card-btn-secundario" href="#" onclick="alert('Lo sentimos, en este momento no funciona nuestro sistema')">Comprar entradas</a>
+            </div>
           </article>
           
         </div>
@@ -93,7 +93,7 @@
     </main>
 
     <footer class="footer">
-      <p class="footer_text"> &copy; 2026 Cine Aurora - Todos los derechos reservados</p>
+      <p class="footer-text"> &copy; 2026 Cine Aurora - Todos los derechos reservados</p>
     </footer>
   </body>
 </html>

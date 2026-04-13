@@ -1,0 +1,93 @@
+.formulario {
+  background-color: var(--color-superficie); /* Gris oscuro del diseño */
+  padding: var(--space-8);
+  width: 100%;
+  max-width: 400px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.formulario-titulo {
+  color: var(--color-texto);
+  font-family: var(--fuente-titulos);
+  text-align: center;
+  margin-bottom: var(--space-2);
+  font-size: 1.8rem;
+}
+
+.formulario-campo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.formulario-label {
+  color: var(--color-texto-suave);
+  font-family: var(--fuente-principal);
+  font-size: var(--space-4);
+  margin-top: var(--space-4);
+}
+
+.formulario-input {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  padding: var(--space-3);
+  color: var(--color-texto);
+  font-family: var(--fuente-principal);
+  border-radius: 2px;
+}
+
+.formulario-input:focus {
+  outline: none;
+  border-color: var(--color-primario);
+}
+
+/* FORMULARIO REGISTRO - PREGUNTAS */
+.registro .formulario {
+  max-width: 600px; /* Le damos más espacio para las dos columnas */
+  margin: 0 auto;
+}
+
+.formulario-preguntas-titulo {
+  color: var(--color-primario);
+  font-family: var(--fuente-titulos);
+  font-size: var(--space-6);
+  margin-top: var(--space-4);
+  margin-bottom: 0;
+}
+
+.formulario-preguntas-texto {
+  font-size: var(--space-5);
+  color: var(--color-texto-suave);
+  margin-bottom: var(--space-6);
+  margin-top: var(--space-2);
+}
+
+.opciones-snack {
+  display: flex;
+  flex-wrap: wrap; /* Para que bajen si no entran */
+  gap: var(--space-4);
+  background-color: #1a1a1a;
+  padding: var(--space-4);
+  border-radius: 4px;
+}
+
+.opciones-snack label {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+
+  cursor: pointer;
+}
+
+.formulario-input[type="color"] {
+  height: 40px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.formulario-input[type="range"] {
+  accent-color: var(--color-primario);
+}

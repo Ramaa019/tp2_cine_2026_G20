@@ -1,4 +1,4 @@
-# Trabajo práctico N°2:
+# Tp2 - Cine Aurora - Grupo 20   :
 
 ## Integrantes
 
